@@ -23,11 +23,11 @@
 ### Menemukan detail topik pada website “monta.if.its.ac.id” yang berisi judul TA
 <br>
     mirip dengan cara nomor 1, display filter menggunakan domain http.host contains monta.if.its.ac.id, lalu klik File, pilih Export Objects, pilih HTTP seperti yang ada di bawah ini.
-    ![Soal 2](2a.png)
+    ![Soal 2](2a.jpg)
     setelah itu export file dengan nama 194 yang merupakan detail topik TA, lalu klik Save. 
-    ![Soal 2](2b.png)
+    ![Soal 2](2b.jpg)
     setelah itu, buka file yang telah di export, dan akan ditemukan judul TA yaitu Evaluasi unjuk kerja User Space Filesystem
-    ![Soal 2](2c.png)
+    ![Soal 2](2c.jpg)
     
 ## Soal 3
 Untuk memfilter sesuai permintaan soal digunakan perintah display filter tcp.dstport == 80 || udp.dstport == 80
