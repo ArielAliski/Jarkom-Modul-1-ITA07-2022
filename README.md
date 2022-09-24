@@ -13,7 +13,7 @@
 
 ### Menyebutkan web server yang digunakan pada "monta.if.its.ac.id"
 <br>
-`http.host contains monta.if.its.ac.id`
+> http.host contains monta.if.its.ac.id
 <br>
     display filter menggunakan domain di atas, lalu follow, pilih TCP Stream seperti yang ada di bawah ini.
     ![Soal 1](/img/1a.png)
@@ -24,7 +24,7 @@
 
 ### Menemukan detail topik pada website “monta.if.its.ac.id” yang berisi judul TA
 <br>
-`http.host contains monta.if.its.ac.id`
+> http.host contains monta.if.its.ac.id
 <br>
     mirip dengan cara nomor 1, display filter menggunakan domain di atas, lalu klik **File**, pilih **Export Objects**, pilih **HTTP** seperti yang ada di bawah ini.
     ![Soal 2]img/2a.png
