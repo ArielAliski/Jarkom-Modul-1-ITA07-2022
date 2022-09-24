@@ -32,3 +32,23 @@
     ![Soal 2](img/2b.png)
     setelah itu, buka file yang telah di export, dan akan ditemukan judul TA yaitu **Evaluasi unjuk kerja User Space Filesystem**
     ![Soal 2](img/2c.png)
+    
+## Soal 3
+Untuk memfilter sesuai permintaan soal digunakan perintah display filter tcp.dstport == 80 || udp.dstport == 80
+![Soal3](Soal3.jpg)
+
+## Soal 4
+Untuk memfilter sesuai permintaan soal didgunakan perintah display filter tcp.srcport == 21 || udp.srcport == 21
+![Soal4](Soal4.jpg)
+
+## Soal 5
+Untuk memfilter sesuai permintaan soal digunakan display filter  tcp.srcport == 443 || udp.srcport == 443 
+![Soal5](Soal5.jpg)
+
+## Soal  6
+Periksa terlebih dahulu apa IP Address website lipi.go.id menggunakan domain name checker. Setelah ditemukan gunakan display filter sesuai ip addressnya sebagai berikut: ip.dst == 203.160.128.158
+![Soal6](Soal6.jpg)
+
+## Soal 7
+Periksa IP Adress sendiri terlebih dahulu, lalu gunakan display filter sesuai ip address kita sebagai berikut: ip.src == 192.168.1.7
+![Soal7](Soal7.jpg)
