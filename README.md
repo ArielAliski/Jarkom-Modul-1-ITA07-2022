@@ -10,18 +10,16 @@
 | Anak Agung Bintang Krisnadewi     | `5027201060` |
 
 ## Soal 1
-
-### Menyebutkan web server yang digunakan pada "monta.if.its.ac.id"
-<br>
+Menyebutkan web server yang digunakan pada "monta.if.its.ac.id"
+<br/>
     display filter menggunakan domain http.host contains monta.if.its.ac.id lalu follow, pilih TCP Stream seperti yang ada di bawah ini. 
     ![Soal1](1a.jpg)
     setelah itu akan ditemukan web server yang digunakan pada monta.if.its.ac.id adalah nginx/1.10.3
     ![Soal 1](1b.jpg)
 
 ## Soal 2
-
-### Menemukan detail topik pada website “monta.if.its.ac.id” yang berisi judul TA
-<br>
+Menemukan detail topik pada website “monta.if.its.ac.id” yang berisi judul TA
+<br/>
     mirip dengan cara nomor 1, display filter menggunakan domain http.host contains monta.if.its.ac.id, lalu klik File, pilih Export Objects, pilih HTTP seperti yang ada di bawah ini.
     ![Soal 2](2a.jpg)
     setelah itu export file dengan nama 194 yang merupakan detail topik TA, lalu klik Save. 
