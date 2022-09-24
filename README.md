@@ -14,9 +14,9 @@
 ### Menyebutkan web server yang digunakan pada "monta.if.its.ac.id"
 <br>
     display filter menggunakan domain http.host contains monta.if.its.ac.id lalu follow, pilih TCP Stream seperti yang ada di bawah ini.
-    ![Soal 1](1a.png)
+    ![Soal 1](1a.jpg)
     setelah itu akan ditemukan web server yang digunakan pada monta.if.its.ac.id adalah nginx/1.10.3
-    ![Soal 1](1b.png)
+    ![Soal 1](1b.jpg)
 
 ## Soal 2
 
