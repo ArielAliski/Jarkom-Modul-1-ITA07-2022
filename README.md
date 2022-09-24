@@ -44,21 +44,21 @@ Untuk memfilter sesuai permintaan soal digunakan display filter  tcp.srcport == 
 ## Soal  6
 Periksa terlebih dahulu apa IP Address website lipi.go.id menggunakan Command Prompt dengan command
 `ping lipi.go.id`
-![Soal6](Soal6a.jpg)
+![Soal6](6a.jpg)
 Setelah ditemukan gunakan display filter sesuai ip addressnya sebagai berikut: `ip.dst == 203.160.128.158`
-![Soal6](Soal6b.jpg)
+![Soal6](6b.jpg)
 
 ## Soal 7
 Periksa IP Adress sendiri terlebih dahulu menggunakan Command Prompt dengan command `ipconfig` dan ambil IP dari connection yang digunakan (saya menggunakan WIFI)
-![Soal7](Soal7a.jpg)
+![Soal7](7a.jpg)
 Lalu ambil capture dari connection yang digunakan oleh diri sendiri, dimana saya di sini menggunakan WIFI
-![Soal7](Soal7b.jpg)
+![Soal7](7b.jpg)
 lalu gunakan display filter sesuai ip address kita sebagai berikut: `ip.src == 192.168.1.110`
-![Soal7](Soal7c.jpg)
+![Soal7](7c.jpg)
 
 ## Soal 8
 Karena kecurangan berbentuk percakapan 2 arah (2 host). Maka protocol yang digunakan yaitu `TCP` dengan flag yang digunakan yaitu `ACK`, dan bukan `SYN` karena flag tersebut untuk percakapan 1 arah. <br/>
 Maka Display filter yang digunakan untuk flagsnya yaitu `tcp.flags.syn==0 && tcp.flags.ack==1.`
-![Soal8](Soal8a.jpg)
+![Soal8](8a.jpg)
 Kemudian pilih salah satu paket yang terfilter dan lakukan `follow - TCP Stream` dan akan terlihat percakapannya
-![Soal8](Soal8b.jpg)
+![Soal8](8b.jpg)
